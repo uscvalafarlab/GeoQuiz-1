@@ -28,16 +28,10 @@ public class QuizActivity extends AppCompatActivity {
     /**
      * To disable the buttons to complete the challenge...
      *
-     * Add extra bool variable to the question objects.---> Maybe not, but do need a tokenizer of some type
+     * Add extra bool variable to the question object.
      * Mark if question was answered.---> requires some logic and algorithms
+     * Store marked questions in array or hash map to cross check if answered
      * Create methods to check if question at given index has been answered and if so disable button, if not enable button
-     *
-     *
-     * Scratch this, create an array with length equal to mQuestionBank, when a button is clicked (true or false),
-     * the index is then stored in the array and there is a check before each button press is processed.
-     * If the index checked matches one in the array then the button is disabled
-     *
-     *
      *
      */
 
